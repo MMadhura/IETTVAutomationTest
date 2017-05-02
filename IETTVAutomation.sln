@@ -1,0 +1,191 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IETTVWebportal", "IETTVWebportal\IETTVWebportal.csproj", "{ECCCEB20-EE52-44DA-BC89-2DEE14EB2CAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D0E094C6-24B3-4DBE-A5A6-4044E8851DFB} = {D0E094C6-24B3-4DBE-A5A6-4044E8851DFB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IETTVAdminPortal", "IETTVAdminPortal\IETTVAdminPortal.csproj", "{3E2327EF-19FF-4B11-BFA7-3B9DDA7D961C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ECCCEB20-EE52-44DA-BC89-2DEE14EB2CAB} = {ECCCEB20-EE52-44DA-BC89-2DEE14EB2CAB}
+		{D0E094C6-24B3-4DBE-A5A6-4044E8851DFB} = {D0E094C6-24B3-4DBE-A5A6-4044E8851DFB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{D0E094C6-24B3-4DBE-A5A6-4044E8851DFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{656B40D8-3586-489A-A57A-51A98646CD1B}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.5.0.docx = Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.5.0.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Estimation and Status", "Estimation and Status", "{6A585BB9-FC6B-4C86-8CE7-5EBE10A80413}"
+	ProjectSection(SolutionItems) = preProject
+		Estimate of Regression Test Scenarios - IET TV.xlsx = Estimate of Regression Test Scenarios - IET TV.xlsx
+		IET TV - Automation Execution Status.xlsx = IET TV - Automation Execution Status.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow Templates", "Flow Templates", "{6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Video Management", "Video Management", "{4FC2548D-3C0D-4541-B8C1-2A57A6FF41C5}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\Video Management\Create_Free_Default_Image.pdf = Documents\Flow Templates\Video Management\Create_Free_Default_Image.pdf
+		Documents\Flow Templates\Video Management\Create_Free_Promo_Image.pdf = Documents\Flow Templates\Video Management\Create_Free_Promo_Image.pdf
+		Documents\Flow Templates\Video Management\Create_Free_Video.pdf = Documents\Flow Templates\Video Management\Create_Free_Video.pdf
+		Documents\Flow Templates\Video Management\Create_Free_Video_Diff_Permissions.pdf = Documents\Flow Templates\Video Management\Create_Free_Video_Diff_Permissions.pdf
+		Documents\Flow Templates\Video Management\Create_Premium_Default_Image.pdf = Documents\Flow Templates\Video Management\Create_Premium_Default_Image.pdf
+		Documents\Flow Templates\Video Management\Create_Premium_Promo_Image.pdf = Documents\Flow Templates\Video Management\Create_Premium_Promo_Image.pdf
+		Documents\Flow Templates\Video Management\Create_Premium_Video.pdf = Documents\Flow Templates\Video Management\Create_Premium_Video.pdf
+		Documents\Flow Templates\Video Management\Create_Subscription_Default_Image.pdf = Documents\Flow Templates\Video Management\Create_Subscription_Default_Image.pdf
+		Documents\Flow Templates\Video Management\Create_Subscription_Promo_Image.pdf = Documents\Flow Templates\Video Management\Create_Subscription_Promo_Image.pdf
+		Documents\Flow Templates\Video Management\Create_Subscription_Video.pdf = Documents\Flow Templates\Video Management\Create_Subscription_Video.pdf
+		Documents\Flow Templates\Video Management\Hide_Free_Video.pdf = Documents\Flow Templates\Video Management\Hide_Free_Video.pdf
+		Documents\Flow Templates\Video Management\Search_Test.pdf = Documents\Flow Templates\Video Management\Search_Test.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Buy Video and Buy Channel", "Buy Video and Buy Channel", "{4219B0CF-FC4C-4F2D-AAC8-BC675C7FEEC2}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\Buy Video & Buy Channel\Buy_Channel.pdf = Documents\Flow Templates\Buy Video & Buy Channel\Buy_Channel.pdf
+		Documents\Flow Templates\Buy Video & Buy Channel\Buy_Video.pdf = Documents\Flow Templates\Buy Video & Buy Channel\Buy_Video.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report Abuse", "Report Abuse", "{54276EBF-B2CE-408A-B25B-7631170746BA}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\Report Abuse\Report_Abuse.pdf = Documents\Flow Templates\Report Abuse\Report_Abuse.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work Instruction Document", "Work Instruction Document", "{09B97EE2-47D0-4915-94F2-145F3E035A80}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.0.doc = Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.0.doc
+		Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.1.doc = Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.1.doc
+		Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.2.docx = Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.2.docx
+		Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.3.docx = Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.3.docx
+		Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.4.docx = Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.4.docx
+		Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.5.0.docx = Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.5.0.docx
+		Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.5.docx = Documents\Work Instruction Document\IET.tv_Automation_WorkInstruction_v1.5.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{123337D3-AB1E-4C8F-9DDC-B65889F9FBC1}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Scripts\AddUserForAuthentication.sql = Documents\Scripts\AddUserForAuthentication.sql
+		Documents\Scripts\InsertProductCodeForChannel.sql = Documents\Scripts\InsertProductCodeForChannel.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Series Management", "Series Management", "{4A45617C-31EE-4B29-BDB7-DB1ED54AFCED}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\Series Management\Series Management.pdf = Documents\Flow Templates\Series Management\Series Management.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Poll Management", "Poll Management", "{5C23390A-CF60-4EC8-8E5A-A69A2FA456A6}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\Poll Management\Poll_Display_Functionality_ForVideo.pdf = Documents\Flow Templates\Poll Management\Poll_Display_Functionality_ForVideo.pdf
+		Documents\Flow Templates\Poll Management\Poll_Management_ForVideo.pdf = Documents\Flow Templates\Poll Management\Poll_Management_ForVideo.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User Generated Content", "User Generated Content", "{13C3F5B1-82F8-4FDD-BB08-87E49832ADD5}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\User Generated Content\UGC_Accept_Functionality.pdf = Documents\Flow Templates\User Generated Content\UGC_Accept_Functionality.pdf
+		Documents\Flow Templates\User Generated Content\UGC_Reject_Functionality.pdf = Documents\Flow Templates\User Generated Content\UGC_Reject_Functionality.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Event Management", "Event Management", "{D231AB69-7207-4245-A595-B1A01DA9850F}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\Event Management\Create_Free_Event_DefaultImage_And_CntDown.pdf = Documents\Flow Templates\Event Management\Create_Free_Event_DefaultImage_And_CntDown.pdf
+		Documents\Flow Templates\Event Management\Create_Free_Event_With_PromoImage.pdf = Documents\Flow Templates\Event Management\Create_Free_Event_With_PromoImage.pdf
+		Documents\Flow Templates\Event Management\Create_Premium_Event_DefaultImage_And_CntDown.pdf = Documents\Flow Templates\Event Management\Create_Premium_Event_DefaultImage_And_CntDown.pdf
+		Documents\Flow Templates\Event Management\Create_Premium_Event_With_AccessCode_LogoImage.pdf = Documents\Flow Templates\Event Management\Create_Premium_Event_With_AccessCode_LogoImage.pdf
+		Documents\Flow Templates\Event Management\Create_Premium_Event_With_PromoImage.pdf = Documents\Flow Templates\Event Management\Create_Premium_Event_With_PromoImage.pdf
+		Documents\Flow Templates\Event Management\Verify_Event_Live_Video_Status.pdf = Documents\Flow Templates\Event Management\Verify_Event_Live_Video_Status.pdf
+		Documents\Flow Templates\Event Management\Verify_Event_Publish_Video_Status.pdf = Documents\Flow Templates\Event Management\Verify_Event_Publish_Video_Status.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Video Request By User", "Video Request By User", "{CCF7C2E2-6DBC-42D5-8062-F2263871B2F2}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\Video Request By User\Create_Video_Request_By_User.pdf = Documents\Flow Templates\Video Request By User\Create_Video_Request_By_User.pdf
+		Documents\Flow Templates\Video Request By User\Reject_Video_Request_By_User.pdf = Documents\Flow Templates\Video Request By User\Reject_Video_Request_By_User.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QA Management", "QA Management", "{61EB6C96-1009-48CB-89C1-F443F6A07707}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\Q&A Management\QA_Display_Functionality_For_Event.pdf = Documents\Flow Templates\Q&A Management\QA_Display_Functionality_For_Event.pdf
+		Documents\Flow Templates\Q&A Management\QA_Display_Functionality_For_Video.pdf = Documents\Flow Templates\Q&A Management\QA_Display_Functionality_For_Video.pdf
+		Documents\Flow Templates\Q&A Management\QA_Functionality_For_Event.pdf = Documents\Flow Templates\Q&A Management\QA_Functionality_For_Event.pdf
+		Documents\Flow Templates\Q&A Management\QA_Functionality_For_Video.pdf = Documents\Flow Templates\Q&A Management\QA_Functionality_For_Video.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMS", "CMS", "{AE002D90-7999-41AD-A1FC-86D2D7994DD0}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Flow Templates\CMS\Verify help institution with images.pdf = Documents\Flow Templates\CMS\Verify help institution with images.pdf
+		Documents\Flow Templates\CMS\Verify help institution with videos.pdf = Documents\Flow Templates\CMS\Verify help institution with videos.pdf
+		Documents\Flow Templates\CMS\Verify services filming with images.pdf = Documents\Flow Templates\CMS\Verify services filming with images.pdf
+		Documents\Flow Templates\CMS\Verify services filming with videos.pdf = Documents\Flow Templates\CMS\Verify services filming with videos.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bugs-Status", "Bugs-Status", "{9B912A7B-7220-4939-AB15-45C27F91BE2A}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\Bugs-Status\IET.tv_Automation_Bugs_List.xlsx = Documents\Bugs-Status\IET.tv_Automation_Bugs_List.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{81CB13B2-584E-4E9B-8C32-03DB12264B55}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://rav-vm-vdi-056/tfs/iet-automation
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = IETTVAdminPortal\\IETTVAdminPortal.csproj
+		SccProjectName1 = IETTVAdminPortal
+		SccLocalPath1 = IETTVAdminPortal
+		SccProjectUniqueName2 = IETTVWebportal\\IETTVWebportal.csproj
+		SccProjectName2 = IETTVWebportal
+		SccLocalPath2 = IETTVWebportal
+		SccProjectUniqueName3 = Utilities\\Utilities.csproj
+		SccProjectName3 = Utilities
+		SccLocalPath3 = Utilities
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECCCEB20-EE52-44DA-BC89-2DEE14EB2CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCCEB20-EE52-44DA-BC89-2DEE14EB2CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCCEB20-EE52-44DA-BC89-2DEE14EB2CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCCEB20-EE52-44DA-BC89-2DEE14EB2CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2327EF-19FF-4B11-BFA7-3B9DDA7D961C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2327EF-19FF-4B11-BFA7-3B9DDA7D961C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2327EF-19FF-4B11-BFA7-3B9DDA7D961C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2327EF-19FF-4B11-BFA7-3B9DDA7D961C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0E094C6-24B3-4DBE-A5A6-4044E8851DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0E094C6-24B3-4DBE-A5A6-4044E8851DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0E094C6-24B3-4DBE-A5A6-4044E8851DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0E094C6-24B3-4DBE-A5A6-4044E8851DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A585BB9-FC6B-4C86-8CE7-5EBE10A80413} = {656B40D8-3586-489A-A57A-51A98646CD1B}
+		{6A6B5150-DED0-4E6A-8277-ECAAC9A4864D} = {656B40D8-3586-489A-A57A-51A98646CD1B}
+		{09B97EE2-47D0-4915-94F2-145F3E035A80} = {656B40D8-3586-489A-A57A-51A98646CD1B}
+		{123337D3-AB1E-4C8F-9DDC-B65889F9FBC1} = {656B40D8-3586-489A-A57A-51A98646CD1B}
+		{9B912A7B-7220-4939-AB15-45C27F91BE2A} = {656B40D8-3586-489A-A57A-51A98646CD1B}
+		{4FC2548D-3C0D-4541-B8C1-2A57A6FF41C5} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{4219B0CF-FC4C-4F2D-AAC8-BC675C7FEEC2} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{54276EBF-B2CE-408A-B25B-7631170746BA} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{4A45617C-31EE-4B29-BDB7-DB1ED54AFCED} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{5C23390A-CF60-4EC8-8E5A-A69A2FA456A6} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{13C3F5B1-82F8-4FDD-BB08-87E49832ADD5} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{D231AB69-7207-4245-A595-B1A01DA9850F} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{CCF7C2E2-6DBC-42D5-8062-F2263871B2F2} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{61EB6C96-1009-48CB-89C1-F443F6A07707} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+		{AE002D90-7999-41AD-A1FC-86D2D7994DD0} = {6A6B5150-DED0-4E6A-8277-ECAAC9A4864D}
+	EndGlobalSection
+EndGlobal

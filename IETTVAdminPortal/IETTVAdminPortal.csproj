@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E2327EF-19FF-4B11-BFA7-3B9DDA7D961C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IETTVAdminPortal</RootNamespace>
+    <AssemblyName>IETTVAdminPortal</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Excel.4.5, Version=2.1.2.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IETTVWebportal\bin\Debug\Excel.4.5.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IETTVWebportal\bin\Debug\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IETTVWebportal">
+      <HintPath>..\IETTVWebportal\bin\Debug\IETTVWebportal.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\IETTVWebportal\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MarklogicXcc, Version=7.0.2.0, Culture=neutral, PublicKeyToken=31d294957ea8eebb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Users\Kishore.Punjabi\Desktop\Dlls\MarklogicXcc.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Encoder, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IETTVWebportal\bin\Debug\Microsoft.Expression.Encoder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Encoder.Types, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IETTVWebportal\bin\Debug\Microsoft.Expression.Encoder.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Encoder.Utilities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IETTVWebportal\bin\Debug\Microsoft.Expression.Encoder.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\IETTVWebportal\bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq, Version=4.0.10827.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\IETTVWebportal\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NReco.PhantomJS, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NReco.PhantomJS.1.0.2.0\lib\net40-Client\NReco.PhantomJS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NSoup, Version=0.7.1.0, Culture=neutral, PublicKeyToken=6d44e53f0a65e802, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IETTVWebportal\bin\Debug\NSoup.dll</HintPath>
+    </Reference>
+    <Reference Include="NSoup">
+      <HintPath>..\..\..\DLLs\NSoup.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IETTVWebportal\bin\Debug\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium, Version=2.46.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\IETTVWebportal\bin\Debug\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="Sikuli4Net, Version=1.0.5319.36348, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Babban_Automation\Main\IETTVAutomation\IETTVAdminPortal\bin\Debug\Sikuli4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.46.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.46.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.46.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="xcccore, Version=7.0.2.0, Culture=neutral, PublicKeyToken=31d294957ea8eebb, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\xcccore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chrome\Chrome_AccountManagement.cs" />
+    <Compile Include="Chrome\Chrome_CategoryManagementVerification.cs" />
+    <Compile Include="Chrome\Chrome_ChannelManagementVerification.cs" />
+    <Compile Include="Chrome\Chrome_ContentManagementSystem.cs" />
+    <Compile Include="Chrome\Chrome_EventManagement.cs" />
+    <Compile Include="Chrome\Chrome_ExternalAccessManagement.cs" />
+    <Compile Include="Chrome\Chrome_IndividualChannelPricing.cs" />
+    <Compile Include="Chrome\Chrome_PollManagement.cs" />
+    <Compile Include="Chrome\Chrome_QAManagement.cs" />
+    <Compile Include="Chrome\Chrome_RegionalAccessVerification.cs" />
+    <Compile Include="Chrome\Chrome_SeriesManagement.cs" />
+    <Compile Include="Chrome\Chrome_UserGeneratedContent.cs" />
+    <Compile Include="Chrome\Chrome_VideoManagement.cs" />
+    <Compile Include="Chrome\Chrome_ConfigurationManagementVerification.cs" />
+    <Compile Include="Chrome\Chrome_CommentsManagementVerification.cs" />
+    <Compile Include="Chrome\Chrome_BuyVideo.cs" />
+    <Compile Include="Chrome\Chrome_ReportAbuse.cs" />
+    <Compile Include="Chrome\Chrome_BuyChannel.cs" />
+    <Compile Include="Chrome\Chrome_VideoRequestByUser.cs" />
+    <Compile Include="Firefox\Firefox_CommentsManagementVerification.cs" />
+    <Compile Include="Firefox\Firefox_ConfigurationManagementVerification.cs" />
+    <Compile Include="Firefox\Firefox_IndividualChannelPricing.cs" />
+    <Compile Include="Firefox\Firefox_RegionalAccessVerification.cs" />
+    <Compile Include="Firefox\Firefox_CategoryManagementVerification.cs" />
+    <Compile Include="Firefox\Firefox_ChannelManagementVerification.cs" />
+    <Compile Include="IE\IE_CommentsManagementVerification.cs" />
+    <Compile Include="IE\IE_ConfigurationManagementVerification.cs" />
+    <Compile Include="IE\IE_IndividualChannelPricing.cs" />
+    <Compile Include="IE\IE_RegionalAccessVerification.cs" />
+    <Compile Include="IE\IE_CategoryManagementVerification.cs" />
+    <Compile Include="IE\IE_ChannelManagementVerification.cs" />
+    <Compile Include="IE\IE_VideoManagementVerification.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reusable Functions\Chrome_AdminSetupTearDown.cs" />
+    <Compile Include="Reusable Functions\IE_AdminSetupTearDown.cs" />
+    <Compile Include="Reusable Functions\Firefox_AdminSetupTearDown.cs" />
+    <Compile Include="Reusable Functions\GetMarkLogicData.cs" />
+    <Compile Include="Reusable Functions\MarkLogicHelper.cs" />
+    <Compile Include="Reusable Functions\TVAdminAuthentication.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdminPortal.config" />
+    <None Include="app.config" />
+    <None Include="Chrome\bin\Debug\AuthHandle.au3" />
+    <None Include="packages.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="TestData_AdminPortal\NormalDataset_IET_Admin.xlsx" />
+    <None Include="TestData_AdminPortal\RandomData_IET_Admin.xlsx" />
+    <None Include="Upload\Documents\Attachment1.docx" />
+    <None Include="Upload\Videos\barsandtone.flv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\packages\PhantomJS.2.0.0\tools\phantomjs\phantomjs.exe">
+      <Link>phantomjs.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="phantomjs-license.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Upload\Documents\Copyright.txt" />
+    <Content Include="Upload\Images\Desert.jpg" />
+    <Content Include="Upload\Images\Tulips.jpg" />
+    <Content Include="Upload\Sikuli\promo video.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\IETTVWebportal\IETTVWebportal.csproj">
+      <Project>{eccceb20-ee52-44da-bc89-2dee14eb2cab}</Project>
+      <Name>IETTVWebportal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{d0e094c6-24b3-4dbe-a5a6-4044e8851dfb}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.2.25.0.0\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.25.0.0\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.25.0.0\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.2.25.0.0\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+  </Target>
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
